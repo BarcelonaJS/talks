@@ -3,22 +3,6 @@ description: Submit the topic you would like to present at a BarcelonaJS meetup
 projects: 
   - BarcelonaJS/2
 body:
-  - type: markdown
-    attributes:
-      value: "Remember that your talk has to last between 20-25 min."
-
-  - type: markdown
-    attributes:
-      value: "## Speaker Details"
-  - type: input
-    id: talk-title
-    attributes:
-      label: Talk Title
-      description: The title of your talk.
-      placeholder: Enter the title of your talk here
-    validations:
-      required: true
-
   - type: textarea
     id: talk-description
     attributes:
@@ -27,6 +11,10 @@ body:
       placeholder: Enter a detailed description of your talk
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "## Speaker Details"
 
   - type: input
     id: speaker-name
