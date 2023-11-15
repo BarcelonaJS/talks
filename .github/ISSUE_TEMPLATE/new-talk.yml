@@ -116,10 +116,6 @@ body:
       placeholder: Enter your company's Twitter handle
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: "  "
       
   - type: checkboxes
     id: accept-coc
